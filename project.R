@@ -16,8 +16,7 @@ library(readr)
 library(ldatuning)
 
 # Load data
-speeches <- read.csv("/Users/Nacho/OneDrive - Universitat Jaume I/Escritorio/Erasmus/Introduction to Digital Humanities/Project/csv/speeches.csv",
-                     stringsAsFactors = FALSE, nrows = 1000)
+speeches <- read.csv("speeches.csv", stringsAsFactors = FALSE, nrows = 1000)
 
 text_data <- speeches$speechContent
 
